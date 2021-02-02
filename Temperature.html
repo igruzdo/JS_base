@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<script>
+    let tempC = +prompt ('Введите температуру в градусах цельсия: ')
+do {
+    if (tempC !== tempC) {
+        tempC = +prompt ('Введенное число не является числом, введите число заново: ')
+    }
+} while (tempC !== tempC)
+
+tempF = (9/5)*tempC
+
+console.log('Температура в фаренгейтах: ' + tempF)
+
+</script>
