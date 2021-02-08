@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function plus (a, b) {
+            return console.log (a + b)
+        }
+        function minus (a, b) {
+            return console.log(a - b)
+        }
+        function multiplication (a, b) {
+            return console.log(a * b)
+        }
+        function division (a, b) {
+            let c = a / b
+            return console.log(c.toFixed(2))
+        }
+        function mathOperation(arg1, arg2, operation) {
+            switch (operation){
+                case plus:
+                plus (arg1, arg2)
+                break
+                case minus:
+                minus (arg1, arg2)
+                break
+                case multiplication:
+                multiplication (arg1, arg2)
+                break
+                case division:
+                division (arg1, arg2)
+                break
+            }
+        }
+        mathOperation (4, 7, plus)
+        mathOperation (4, 7, minus)
+        mathOperation (4, 7, multiplication)
+        mathOperation (4, 7, division)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
