@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let car_1 = {
+            make: 'BMW',
+            model: 'x3',
+            power: 150,
+            price: 300
+        }
+        let car_2 = {
+            make: 'Mazda',
+            model: 'CX-5',
+            power: 130,
+            price: 200
+        }
+        let car_3 = {
+            make: 'Opel',
+            model: 'astra',
+            power: 100,
+            price: 150
+        }
+        let car_4 = {
+            make: 'Mersedes',
+            model: 'C-AMG',
+            power: 250,
+            price: 450
+        }
+        let basket = [car_1, car_2, car_3, car_4]
+
+        function countBasketPrice (arr) {
+            let sum = 0
+            for (i=0; i < arr.length; i++ ) {
+                sum += arr[i].price
+            }
+            console.log (sum)
+        }
+        countBasketPrice (basket)
+        
+        // basket = [['bmw', 300], ['Mazda', 200], ['opel', 150], ['mersedes', 450]]
+        // // console.log (basket[1][1])
+        // function countBasketPrice (arr) {
+        //     let sum = 0
+        //     for (i=0; i < arr.length; i++ ) {
+        //         sum += arr[i][1]
+        //     }
+        //     console.log (sum)
+        // }
+        // countBasketPrice (basket)
+        
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

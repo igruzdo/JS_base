@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num = 759
+        function transObj (transnum) {
+            if (transnum <= 999) {
+                let devisObj = {
+                    cent: a = (transnum - (transnum % 100))/100,
+                    dozen: b = ((transnum - this.a*100) - (transnum - this.a*100)%10)/10,
+                    units: transnum - this.a *100 - this.b * 10,
+                }
+                console.log (devisObj)
+            } else 
+            console.log ('Число превышает 999')
+        }
+        transObj (num)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
