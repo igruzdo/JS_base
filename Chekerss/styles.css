@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.chekerss {
+    width: 720px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.black {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+.white {
+    width: 80px;
+    height: 80px;
+}
+.numbersSQ {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 22px;
+}
+.lettersSQ {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 22px;
+}
+.field {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px black solid;
+}
+.lettersField {
+    width: 80px;
+    height: 640px;
+}
+.numbersField {
+    width: 640px;
+    height: 80px;
+    display: flex;
+}
+.nothing {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
